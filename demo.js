@@ -3,3 +3,5 @@ function Person(name, age, gender) {
   this.age = age;
   this.gender = gender;
 }
+
+module.exports = Person;

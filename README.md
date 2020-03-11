@@ -30,3 +30,7 @@ git switch -c <branch>
 git merge <branch>                    : merge branch to the current branch
 
 git branch -D <branch>                : force delete branch
+
+git reset --soft <commit>             : reset the HEAD to commit (undo all commits after that), does not touch the working tree and staging area
+git reset --mixed <commit>            : reset the HEAD to commit and undo items in staging area, does not touch the working tree
+git reset --hard <commit>             : remove the commit and set HEAD to previous commit, remove all change

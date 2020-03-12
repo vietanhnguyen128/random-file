@@ -38,3 +38,4 @@ git reset --hard <commit>             : remove the commit and set HEAD to previo
 git revert <commit>                   : create a new commit that revert the commit specified
 
 git remote add <name> <url>           : adds a remote named <name> for the repository at <url>
+git push -u <origin> <branch>         : push local repo to remote repo at origin and branch

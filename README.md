@@ -36,3 +36,5 @@ git reset --mixed <commit>            : reset the HEAD to commit and undo items 
 git reset --hard <commit>             : remove the commit and set HEAD to previous commit, remove all change
 
 git revert <commit>                   : create a new commit that revert the commit specified
+
+git remote add <name> <url>           : adds a remote named <name> for the repository at <url>

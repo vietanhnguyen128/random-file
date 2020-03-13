@@ -2,7 +2,9 @@ const chalk = require('chalk');
 
 function Idol(name, gender) {
   this.name = name;
-  this.gender = gender;
+  if (gender !== 'Male' || gender !== 'Female') {
+    throw new Error('Gender is not valid.');
+  }
   this.retired = false;
 }
 

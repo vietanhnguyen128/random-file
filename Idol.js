@@ -1,7 +1,8 @@
 const chalk = require('chalk');
 
-function Idol(name) {
+function Idol(name, gender) {
   this.name = name;
+  this.gender = gender;
   this.retired = false;
 }
 

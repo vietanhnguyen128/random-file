@@ -42,3 +42,6 @@ git push -u <origin> <branch>         : push local repo to remote repo at origin
 
 git config credential.helper manager  : use Windows Credential Manager (doesn't require login for each push)\
 git config credential.helper store    : store the login info for a definite amount of time (or until restart)
+
+git clone <repository>                : clone a project from <repo>\
+git pull                              : fetch from and integrate the project from <repo>

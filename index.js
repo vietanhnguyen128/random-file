@@ -1,7 +1,7 @@
 const Idol = require('./Idol');
 const Person = require('./Person');
 
-var Aoi = new Idol('Yuko Ono');
+var Aoi = new Idol('Yuko Ono', 'Female');
 
 //Aoi.sayHi();
 

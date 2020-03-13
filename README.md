@@ -38,10 +38,10 @@ git reset --hard <commit>             : remove the commit and set HEAD to previo
 git revert <commit>                   : create a new commit that revert the commit specified
 
 git remote add <name> <url>           : adds a remote named <name> for the repository at <url>\
-git push <origin> <branch>         : push local repo to remote repo at origin and branch
+git push <origin> <branch>            : push local repo to remote repo at origin and branch
 
 git config credential.helper manager  : use Windows Credential Manager (doesn't require login for each push)\
 git config credential.helper store    : store the login info for a definite amount of time (or until restart)
 
 git clone <repository>                : clone a project from <repo>\
-git pull                              : fetch from and integrate the project from <repo>
+git pull                              : fetch from and integrate the project from <repo> (equal to git fetch and git merge)

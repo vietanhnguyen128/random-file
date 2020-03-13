@@ -45,3 +45,5 @@ git config credential.helper store    : store the login info for a definite amou
 
 git clone <repository>                : clone a project from <repo>\
 git pull                              : fetch from and integrate the project from <repo> (equal to git fetch and git merge)
+
+git fetch --prune                     : remove outdated/deleted branches

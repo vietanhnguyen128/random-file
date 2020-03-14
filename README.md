@@ -46,4 +46,15 @@ git config credential.helper store    : store the login info for a definite amou
 git clone <repository>                : clone a project from <repo>\
 git pull                              : fetch from and integrate the project from <repo> (equal to git fetch and git merge)
 
-git fetch --prune                     : remove outdated/deleted branches
+git fetch --prune                     : remove outdated/deleted branches\
+git remote update --prune             : update all remote branches
+
+Resolve conflicts\
+Method 1: Using git rebase\
+git rebase master                     : rebase the current branch onto master\
+then resolve confict, push again with -f
+
+Method 2: Using git merge\
+Merge updated master to feature branch (3-way merge)\
+Resolve conflicts\
+Commit and push

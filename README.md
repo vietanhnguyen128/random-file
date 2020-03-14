@@ -52,7 +52,7 @@ git remote update --prune             : update all remote branches
 Resolve conflicts\
 Method 1: Using git rebase\
 git rebase master                     : rebase the current branch onto master\
-then resolve confict, push again with -f
+then resolve confict, push again with -f //Not recommended for master
 
 Method 2: Using git merge\
 Merge updated master to feature branch (3-way merge)\
